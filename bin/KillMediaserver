@@ -1,0 +1,15 @@
+#!/system/bin/sh
+INDEX=0
+
+while [ $INDEX -lt $1 ]
+do
+	stop media
+	sleep 1
+	INDEX=$(($INDEX+1))
+	result=`getprop init.svc.media`
+	if [ $result == "stopped" ]; then
+		echo "1";
+		exit 0
+	fi
+done
+echo "0"

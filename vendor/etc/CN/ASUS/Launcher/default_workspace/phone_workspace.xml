@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites>
+    <!-- screen [-1] -->
+    <appwidget
+        className="com.baidu.searchbox.widget.TransSearchWidgetProvider"
+        packageName="com.baidu.searchbox"
+        screen="0"
+        spanX="4"
+        spanY="1"
+        x="0"
+        y="0" />
+
+    <!-- screen [0] -->
+    <appwidget
+        className="com.asus.weathertime.WeatherWidgetProviderPhone"
+        packageName="com.asus.weathertime"
+        screen="1"
+        spanX="4"
+        spanY="1"
+        x="0"
+        y="0" />
+
+    <folder
+        screen="1"
+        title="ASUS"
+        x="0"
+        y="4" >
+        <favorite
+            className="com.android.email.activity.Welcome"
+            packageName="com.asus.email" />
+        <favorite
+            className="com.android.contacts.activities.PeopleActivity"
+            packageName="com.asus.cncontacts" />
+        <favorite
+            className="com.android.calendar.AllInOneActivity"
+            packageName="com.asus.calendar" />
+        <favorite
+            className="com.asus.task.activity.TaskActivity"
+            packageName="com.asus.task" />
+        <favorite
+            className="com.asus.deskclock.DeskClock"
+            packageName="com.asus.deskclock" />
+        <favorite
+            className="com.asus.music.MusicMainActivity"
+            packageName="com.asus.music" />
+        <favorite
+            className="com.asus.weathertime.WeatherTimeSettings"
+            packageName="com.asus.weathertime" />
+        <favorite
+            className="com.asus.calculator.Calculator"
+            packageName="com.asus.calculator" />
+        <favorite
+            className="com.asus.flashlight.FlashLightMainActivity"
+            packageName="com.asus.flashlight" />
+        <favorite
+            className="com.asus.sharerim.Main"
+            packageName="com.asus.sharerim" />
+        <favorite
+            className="com.asus.supernote.picker.NoteBookPickerActivity"
+            packageName="com.asus.supernote" />
+    </folder>
+
+    <favorite
+        className="com.asus.mobilemanager.task.BoostShortcut"
+        packageName="com.asus.mobilemanager"
+        screen="1"
+        x="1"
+        y="4" />
+
+    <favorite
+        className="com.asus.gallery.app.EPhotoActivity"
+        packageName="com.asus.gallery"
+        screen="1"
+        x="2"
+        y="4" />
+
+    <favorite
+        className="com.asus.filemanager.activity.FileManagerActivity"
+        packageName="com.asus.filemanager"
+        screen="1"
+        x="3"
+        y="4" />
+
+    <!-- screen [1] -->
+
+    <favorite
+        className="com.asus.mobilemanager.entry.FunctionActivity"
+        packageName="com.asus.mobilemanager"
+        screen="2"
+        x="0"
+        y="4" />
+
+    <favorite
+        className="com.asus.userfeedback.MainActivityDefaultLauncher"
+        packageName="com.asus.userfeedback"
+        screen="2"
+        x="1"
+        y="4" />
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <favorite
+        className="com.android.contacts.activities.DialtactsActivity"
+        packageName="com.asus.cncontacts"
+        container="-103"
+        screen="0"
+        x="0"
+        y="0" />
+    <favorite
+        className="com.android.mms.ui.ConversationList"
+        packageName="com.asus.cnmessage"
+        container="-103"
+        screen="1"
+        x="1"
+        y="0" />
+    <favorite
+        className="com.android.browser.BrowserActivity"
+        packageName="com.asus.browser"
+        container="-103"
+        screen="3"
+        x="3"
+        y="0" />
+    <favorite
+        className="com.asus.camera.CameraApp"
+        packageName="com.asus.camera"
+        container="-103"
+        screen="4"
+        x="4"
+        y="0" />
+
+</favorites>

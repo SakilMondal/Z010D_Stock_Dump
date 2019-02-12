@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+   <include layout="layout_common.xml"/>
+   <textview
+   name="display"
+   text="lcd_backlight_chg"
+   w_rel="150"
+   h_rel="70"
+   x_rel="4"
+   y_rel="18" />
+</layout>
